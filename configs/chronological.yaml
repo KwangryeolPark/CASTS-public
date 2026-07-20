@@ -1,0 +1,4 @@
+method: Chronological 60/20/20
+target_ratios: [0.6, 0.2, 0.2]
+unit: bin
+randomized: false

@@ -1,0 +1,9 @@
+method: CASTS-05
+source_method_name: CASTS-main
+target_ratios: [0.6, 0.2, 0.2]
+lambda_cont: 0.05
+search_runs: 10
+assignment_steps: 400
+initialization: mixed chronological and randomized
+temperature: tau_q = 0.25 * 0.999^(q-1)
+seed_rule: split_seed + 211 + 11 * replicate

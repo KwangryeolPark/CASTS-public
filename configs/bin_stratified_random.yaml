@@ -1,0 +1,13 @@
+method: Bin-level stratified random
+source_method_name: Random stratified bins
+target_ratios: [0.6, 0.2, 0.2]
+unit: bin
+lambda_cont: 0.0
+search_runs: 8
+assignment_steps: 400
+initialization: categorical randomized
+initialization_probabilities: [0.6, 0.2, 0.2]
+temperature_initial: 0.25
+temperature_decay: 0.999
+seed_rule: split_seed + 11 * replicate
+run_selection: lowest final objective across runs

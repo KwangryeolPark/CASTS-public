@@ -1,0 +1,5 @@
+method: Point-level stratified random
+source_method_name: Random point stratified 60/20/20
+target_ratios: [0.6, 0.2, 0.2]
+unit: point
+seed_rule: split_seed + 7919 * replicate

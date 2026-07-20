@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "CASTS: Balancing Anomaly Distribution and Contiguity in Train/Validation/Test Splits for Time-Series Anomaly Detection"
+message: "If you use this repository, cite the CASTS paper."
+type: software
+authors:
+  - family-names: Park
+    given-names: Kwangryeol
+  - family-names: Lee
+    given-names: Kyuhwan
+repository-code: "https://github.com/KwangryeolPark/CASTS"
+version: "0.1.0"
+date-released: "2026-07-20"

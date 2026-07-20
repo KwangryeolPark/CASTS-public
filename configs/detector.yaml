@@ -1,0 +1,14 @@
+methods:
+  - Chronological 60/20/20
+  - Bin-level stratified random
+  - CASTS-05
+  - CASTS-35
+models: [CNN1D, GRU, LSTM]
+window: 32
+stride: 4
+window_label: final observation label
+batch_size: 128
+epochs: 5
+learning_rate: 0.001
+threshold: 0.5
+model_seed_rule: split_seed + replicate + 1000
